@@ -3,8 +3,8 @@
 all:
 
 REPO_USER    := conao3
-PACKAGE_NAME := lsp-elisp
-REPO_NAME    := lsp-elisp.el
+PACKAGE_NAME := lsp-server
+REPO_NAME    := lsp-server.el
 
 EMACS        ?= emacs
 ELS          := $(shell cask files)
